@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Dashboard — Student Course Hub</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Student <span>Course Hub</span></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="programmes.html">Programmes</a>
+            <a href="modules.html">Modules</a>
+            <a href="student-dashboard.html" class="active">Dashboard</a>
+            <a href="logout.html" class="nav-logout">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="dashboard">
+            <aside class="sidebar">
+                <div class="sidebar-header">Navigation</div>
+                <ul>
+                    <li><a href="#profile">My Profile</a></li>
+                    <li><a href="#interests">My Interests</a></li>
+                    <li><a href="#programmes">Enrolled Programmes</a></li>
+                    <li><a href="#modules">My Modules</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                </ul>
+            </aside>
+
+            <section class="content">
+                <div class="content-header">
+                    <h2>Welcome back</h2>
+                    <p>Manage your course interests, view enrolled programmes, and track your progress.</p>
+                </div>
+
+                <div class="section-label">Overview</div>
+
+                <div class="features">
+                    <div class="feature" id="interests">
+                        <div class="feature-icon">⭐</div>
+                        <h3>My Interests</h3>
+                        <p>You have registered interest in <strong>BSc Computer Science</strong> and <strong>MSc Machine Learning</strong>.</p>
+                        <a class="btn btn-accent" href="interest.html">Register New Interest</a>
+                    </div>
+
+                    <div class="feature" id="programmes">
+                        <div class="feature-icon">🎓</div>
+                        <h3>Enrolled Programmes</h3>
+                        <p>Currently enrolled in <strong>BSc Computer Science</strong> — Year 1.</p>
+                        <p style="margin-top:0.6rem; font-size:0.85rem; color:var(--muted);">Introduction to Programming &middot; Mathematics for CS</p>
+                    </div>
+                </div>
+
+                <div class="section-label" style="margin-top:1.5rem;">Recent Activity</div>
+
+                <ul class="activity-list">
+                    <li>
+                        <span class="activity-dot"></span>
+                        <span>Interest submitted for <strong>MSc Cyber Security</strong> &mdash; <span class="badge badge-muted">10 Feb 2025</span></span>
+                    </li>
+                    <li>
+                        <span class="activity-dot" style="background:var(--muted);"></span>
+                        <span>Programme details viewed: <strong>BSc Artificial Intelligence</strong></span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Course Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
