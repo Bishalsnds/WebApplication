@@ -7,6 +7,7 @@ use App\Core\Auth;
 use App\Models\Interest;
 use App\Models\Programme;
 
+//student controller handles all student-facing actions, such as viewing programmes and managing interests
 class StudentController
 {
     private Programme $programmeModel;
