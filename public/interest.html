@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register Interest — Student Course Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Student <span>Course Hub</span></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="programmes.html">Programmes</a>
+      <a href="modules.html">Modules</a>
+      <a href="student-dashboard.html">Dashboard</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom:1rem;">
+      <div class="hero-label">Enrolment</div>
+      <h2>Register <em>Interest</em></h2>
+      <p>Submit your details to reserve a place in your selected programme. We'll be in touch with the next steps.</p>
+    </section>
+
+    <div class="form-wrapper">
+      <form action="/interest/submit" method="POST">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="jane@university.ac.uk" required>
+
+        <label for="programme">Select Programme</label>
+        <select id="programme" name="programme_id" required>
+          <option value="" disabled selected>Choose a programme…</option>
+          <option value="1">BSc Computer Science</option>
+          <option value="4">BSc Cyber Security</option>
+          <option value="6">MSc Machine Learning</option>
+        </select>
+
+        <button type="submit">Submit Interest →</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Student Course Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
