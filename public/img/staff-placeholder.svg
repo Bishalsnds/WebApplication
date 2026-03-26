@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
+  <title id="title">Staff profile placeholder image</title>
+  <desc id="desc">Default portrait used when a staff photo is not provided.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#ece3d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="520" fill="url(#g)"/>
+  <circle cx="260" cy="182" r="78" fill="#d7c8b0"/>
+  <path d="M120 430c8-82 56-130 140-130s132 48 140 130" fill="#d7c8b0"/>
+  <text x="260" y="486" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="22" fill="#1a3044">Staff Photo</text>
+</svg>

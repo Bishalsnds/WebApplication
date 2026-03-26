@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Module placeholder image</title>
+  <desc id="desc">Default illustration shown when a module image is not configured.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#efe8dd"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" fill="url(#g)"/>
+  <rect x="130" y="95" width="340" height="230" rx="16" fill="#ffffff" stroke="#ddd8cf" stroke-width="2"/>
+  <rect x="165" y="145" width="270" height="16" rx="8" fill="#1a3044" opacity="0.25"/>
+  <rect x="165" y="184" width="210" height="14" rx="7" fill="#7a7065" opacity="0.25"/>
+  <rect x="165" y="220" width="245" height="14" rx="7" fill="#7a7065" opacity="0.2"/>
+  <text x="300" y="287" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="18" fill="#c8622a">Module Image</text>
+</svg>
